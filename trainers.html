@@ -42,6 +42,13 @@
 .social a:hover i {
   color: #ff4925;
 }
+.trainer-img {
+    width: 100%; /* Make it responsive, takes up full width of the parent container */
+    height: 250px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the images cover the area and don't get distorted */
+    border-radius: 10px; /* Optional: If you want rounded corners */
+}
+
 
   </style>
 </head>
@@ -63,7 +70,7 @@
           <li><a href="about.html" onmouseover="this.style.color='#ff4925'" onmouseout="this.style.color='inherit'">About</a></li>
           <li><a href="courses.html" onmouseover="this.style.color='#ff4925'" onmouseout="this.style.color='inherit'">Courses</a></li>
           <li><a href="trainers.html" class="active"style="color: #ff4925;" onmouseover="this.style.color='#ff4925'" onmouseout="this.style.color='#ff4925'">Trainers</a></li>
-          <li><a href="teacher_login.html" onmouseover="this.style.color='#ff4925'" onmouseout="this.style.color='inherit'">Login</a></li>
+          <li><a href="teacher_login.php" onmouseover="this.style.color='#ff4925'" onmouseout="this.style.color='inherit'">Login</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -102,118 +109,85 @@
 
     <!-- Trainers Section -->
     <section id="trainers" class="section trainers">
-
       <div class="container">
-
         <div class="row gy-5">
-
+          
+          <!-- Team Member 1 -->
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <!-- <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div> -->
+              <img src="assets/img/team/trainer1.jpeg" class="img-fluid trainer-img" alt="">
             </div>
             <div class="member-info text-center">
-              <h4>Surega</h4>
+              <h4>Radha</h4>
               <span>English</span>
               <p>Enhancing communication skills through reading, writing, and grammar.</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>
+    
+          <!-- Team Member 2 -->
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <!-- <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div> -->
+              <img src="assets/img/team/trainer2.jpeg" class="img-fluid trainer-img" alt="">
             </div>
             <div class="member-info text-center">
-              <h4>Durga Devi</h4>
+              <h4>Patil</h4>
               <span>Kannada</span>
               <p>Preserving language and culture while building strong linguistic skills.</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>
+    
+          <!-- Team Member 3 -->
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              <!-- <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div> -->
+              <img src="assets/img/team/trainer3.jpeg" class="img-fluid trainer-img" alt="">
             </div>
             <div class="member-info text-center">
-              <h4>Sushmitha</h4>
+              <h4>Priya</h4>
               <span>Hindi</span>
               <p>Exploring literature and grammar to strengthen language proficiency.</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>
+    
+          <!-- Team Member 4 -->
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-              <!-- <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div> -->
+              <img src="assets/img/team/trainer4.jpeg" class="img-fluid trainer-img" alt="">
             </div>
             <div class="member-info text-center">
-              <h4>Ranjitha</h4>
+              <h4> Tharan</h4>
               <span>Maths</span>
               <p>Building logical thinking and problem-solving skills through numbers.</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>
+    
+          <!-- Team Member 5 -->
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
-              <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
-              <!-- <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div> -->
+              <img src="assets/img/team/trainer5.jpeg" class="img-fluid trainer-img" alt="">
             </div>
             <div class="member-info text-center">
-              <h4>Kavya</h4>
-              <span>Scienc<br></span>
+              <h4> Tharun</h4>
+              <span>Science</span>
               <p>Understanding the world through experiments, observations, and discoveries.</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>
+    
+          <!-- Team Member 6 -->
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-              <!-- <div class="social">
-                <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div> -->
+              <img src="assets/img/team/trainer6.jpeg" class="img-fluid trainer-img" alt="">
             </div>
             <div class="member-info text-center">
               <h4>Tejas M</h4>
               <span>Social Science</span>
               <p>Learning history, geography, and civics to develop social awareness.</p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>
+    
         </div>
-
       </div>
-
-    </section><!-- /Trainers Section -->
+    </section>
+    <!-- /Trainers Section -->
 
   </main>
 
@@ -276,7 +250,7 @@
       <div class="col-lg-4 col-md-12 footer-newsletter">
         <h4>Our Newsletter</h4>
         <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-        <form action="forms/newsletter.html" method="post" class="php-email-form">
+        <form action="forms/newsletter.php" method="post" class="php-email-form">
           <div class="newsletter-form">
             <input type="email" name="email">
             <input type="submit" value="Subscribe">
